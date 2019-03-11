@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nodata</name>
+   <tag></tag>
+   <elementGuidId>5fb735da-a581-4f5a-a4cc-27b6841ea4c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/main[2]/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/main[2]/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr/td</value>
+   </webElementProperties>
+</WebElementEntity>

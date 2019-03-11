@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saleslog_edit</name>
+   <tag></tag>
+   <comment>Editing the Saleslog Module deals</comment>
+   <testCaseGuid>9f522012-ea5a-4c5c-ab77-c1cc81aeb6d4</testCaseGuid>
+</TestCaseEntity>

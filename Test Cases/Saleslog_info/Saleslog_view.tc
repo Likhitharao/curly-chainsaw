@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saleslog_view</name>
+   <tag></tag>
+   <comment>Viewing the Created Saleslog Deal</comment>
+   <testCaseGuid>65e9236b-fca4-44e9-8f6a-bda301b6e6cc</testCaseGuid>
+</TestCaseEntity>

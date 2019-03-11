@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Employee_data_01,Chrome 72.0.3626.109,,2019-02-19 16:08:46,2019-02-19 16:10:10,1m - 23.608s,FAILED
+,,,,,,
+Test Cases/Login_page_info/Login_valid_info_1,Chrome 72.0.3626.109,,2019-02-19 16:08:47,2019-02-19 16:09:01,14.343s,PASSED
+comment,Chrome 72.0.3626.109,,2019-02-19 16:08:47,2019-02-19 16:08:47,0.054s,PASSED
+openBrowser,Chrome 72.0.3626.109,,2019-02-19 16:08:47,2019-02-19 16:08:51,3.474s,PASSED
+navigateToUrl,Chrome 72.0.3626.109,Thor URL,2019-02-19 16:08:51,2019-02-19 16:08:56,5.573s,PASSED
+setText,Chrome 72.0.3626.109,"Enter""E-mail""",2019-02-19 16:08:56,2019-02-19 16:08:57,0.219s,PASSED
+setEncryptedText,Chrome 72.0.3626.109,"Enter""Password""
+",2019-02-19 16:08:57,2019-02-19 16:08:57,0.252s,PASSED
+click,Chrome 72.0.3626.109,"Click ""Login"" button",2019-02-19 16:08:57,2019-02-19 16:09:01,4.333s,PASSED
+verifyElementPresent,Chrome 72.0.3626.109,Very Successful Login,2019-02-19 16:09:01,2019-02-19 16:09:01,0.059s,PASSED
+,,,,,,
+Test Cases/Configuration_info/Employee_data_01,Chrome 72.0.3626.109,,2019-02-19 16:09:01,2019-02-19 16:10:09,1m - 8.173s,FAILED
+comment,Chrome 72.0.3626.109,,2019-02-19 16:09:02,2019-02-19 16:09:02,0.020s,PASSED
+click,Chrome 72.0.3626.109,"Click "" Configuration""",2019-02-19 16:09:02,2019-02-19 16:09:02,0.917s,PASSED
+delay,Chrome 72.0.3626.109,,2019-02-19 16:09:02,2019-02-19 16:09:07,5.015s,PASSED
+"Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configuration_Info/employee_data_01).getRowNumbers(), (i++)])",Chrome 72.0.3626.109,,2019-02-19 16:09:07,2019-02-19 16:10:09,1m - 1.871s,FAILED

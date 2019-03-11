@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saleslog_delete</name>
+   <tag></tag>
+   <comment>Deleting th Sales log Deal</comment>
+   <testCaseGuid>0b3efa2f-22c3-45e9-9d1f-acaf967679d8</testCaseGuid>
+</TestCaseEntity>

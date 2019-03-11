@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sales_retainer</name>
+   <tag></tag>
+   <comment>Creating Deal With Contract Type &quot;RETAINER &quot;</comment>
+   <testCaseGuid>ddec45f1-abc7-416d-bf1d-fd48648c5e45</testCaseGuid>
+</TestCaseEntity>

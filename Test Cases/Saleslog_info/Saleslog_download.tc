@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saleslog_download</name>
+   <tag></tag>
+   <comment>Downloading Invoice in Saleslog Module</comment>
+   <testCaseGuid>7dbba174-f19c-4489-a397-6c6bc69bc4d8</testCaseGuid>
+</TestCaseEntity>

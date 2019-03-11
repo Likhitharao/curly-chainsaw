@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+log,Chrome 72.0.3626.109,,2019-02-22 14:45:29,2019-02-22 14:45:45,15.931s,PASSED
+,,,,,,
+Test Cases/Login_page_info/Login_Invalid_info_2,Chrome 72.0.3626.109,,2019-02-22 14:45:29,2019-02-22 14:45:44,14.586s,PASSED
+openBrowser,Chrome 72.0.3626.109,,2019-02-22 14:45:30,2019-02-22 14:45:39,9.671s,PASSED
+navigateToUrl,Chrome 72.0.3626.109,"Thor ""URL""",2019-02-22 14:45:39,2019-02-22 14:45:43,3.443s,PASSED
+setText,Chrome 72.0.3626.109,"Enter""Invalid E-mail""",2019-02-22 14:45:43,2019-02-22 14:45:43,0.318s,PASSED
+setEncryptedText,Chrome 72.0.3626.109,"Enter""Invalid Password""",2019-02-22 14:45:43,2019-02-22 14:45:44,0.385s,PASSED
+click,Chrome 72.0.3626.109,"Click""Login"" button",2019-02-22 14:45:44,2019-02-22 14:45:44,0.185s,PASSED
+verifyElementPresent,Chrome 72.0.3626.109,Unsuccessful Login,2019-02-22 14:45:44,2019-02-22 14:45:44,0.181s,PASSED

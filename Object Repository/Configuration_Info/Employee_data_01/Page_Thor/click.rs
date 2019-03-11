@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click</name>
+   <tag></tag>
+   <elementGuidId>0495ac0a-1d02-4254-a5aa-077ecb921f62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[3]/div/form/div[2]/div/div[9]/div/div[2]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[3]/div/form/div[2]/div/div[9]/div/div[2]/div/button</value>
+   </webElementProperties>
+</WebElementEntity>

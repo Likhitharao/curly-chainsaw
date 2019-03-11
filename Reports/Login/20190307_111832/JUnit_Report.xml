@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="21" timestamp="2019-03-07 11:18:35" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Login\\20190307_111832"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Login\\20190307_111832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="985b2ed3aa1616ca5129306e7c3de623"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_valid_info_1" classname="Test Cases/Login_page_info/Login_valid_info_1" status="PASSED">
+         <system-out><![CDATA[2019-03-07 11:18:36 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_valid_info_1: Test Cases/Login_page_info/Login_valid_info_1
+
+2019-03-07 11:18:36 - [TEST_STEP][PASSED] - comment("Login to Thor with Valid Credentials"): Login to Thor with Valid Credentials
+
+2019-03-07 11:18:36 - [MESSAGE][INFO] - Login to Thor with Valid Credentials
+
+2019-03-07 11:18:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 11:18:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 11:18:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-07 11:18:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 11:18:46 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.mythortal.com/"): Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-03-07 11:18:50 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-03-07 11:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username"), "nick"): Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-03-07 11:18:51 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-03-07 11:18:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password"), "AdUMoLaE2tWuHJEBZev0OA=="): Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-03-07 11:18:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-03-07 11:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login")): Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-03-07 11:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-03-07 11:18:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash"), 0, STOP_ON_FAILURE): Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present
+
+2019-03-07 11:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-07 11:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-07 11:18:35 - [TEST_SUITE][PASSED] - Login: Test Cases/Login_page_info/Login_valid_info_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

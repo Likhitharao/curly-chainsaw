@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Employee_data_01,Chrome 72.0.3626.109,,2019-02-19 15:07:43,2019-02-19 15:08:30,47.547s,FAILED
+,,,,,,
+Test Cases/Login_page_info/Login_valid_info_1,Chrome 72.0.3626.109,,2019-02-19 15:07:43,2019-02-19 15:08:00,16.451s,PASSED
+comment,Chrome 72.0.3626.109,,2019-02-19 15:07:44,2019-02-19 15:07:44,0.064s,PASSED
+openBrowser,Chrome 72.0.3626.109,,2019-02-19 15:07:44,2019-02-19 15:07:51,7.372s,PASSED
+navigateToUrl,Chrome 72.0.3626.109,Thor URL,2019-02-19 15:07:51,2019-02-19 15:07:54,3.160s,PASSED
+setText,Chrome 72.0.3626.109,"Enter""E-mail""",2019-02-19 15:07:54,2019-02-19 15:07:55,0.283s,PASSED
+setEncryptedText,Chrome 72.0.3626.109,"Enter""Password""
+",2019-02-19 15:07:55,2019-02-19 15:07:55,0.362s,PASSED
+click,Chrome 72.0.3626.109,"Click ""Login"" button",2019-02-19 15:07:55,2019-02-19 15:08:00,4.760s,PASSED
+verifyElementPresent,Chrome 72.0.3626.109,Very Successful Login,2019-02-19 15:08:00,2019-02-19 15:08:00,0.082s,PASSED
+,,,,,,
+Test Cases/Configuration_info/Employee_data_01,Chrome 72.0.3626.109,,2019-02-19 15:08:00,2019-02-19 15:08:24,23.884s,FAILED
+comment,Chrome 72.0.3626.109,,2019-02-19 15:08:00,2019-02-19 15:08:00,0.003s,PASSED
+click,Chrome 72.0.3626.109,"Click "" Configuration""",2019-02-19 15:08:00,2019-02-19 15:08:01,1.225s,PASSED
+delay,Chrome 72.0.3626.109,,2019-02-19 15:08:01,2019-02-19 15:08:06,5.012s,PASSED
+"Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configuration_Info/Create).getRowNumbers(), (i++)])",Chrome 72.0.3626.109,,2019-02-19 15:08:06,2019-02-19 15:08:24,17.306s,FAILED
+,,,,,,
+Test Cases/Configuration_info/Employee_data_03,Chrome 72.0.3626.109,,2019-02-19 15:08:24,2019-02-19 15:08:29,5.824s,FAILED
+setText,Chrome 72.0.3626.109,,2019-02-19 15:08:24,2019-02-19 15:08:24,0.179s,PASSED
+delay,Chrome 72.0.3626.109,,2019-02-19 15:08:24,2019-02-19 15:08:29,5.003s,PASSED
+click,Chrome 72.0.3626.109,,2019-02-19 15:08:29,2019-02-19 15:08:29,0.407s,FAILED

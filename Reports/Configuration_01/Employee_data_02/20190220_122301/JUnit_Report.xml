@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee_data_02" time="35" tests="2" failures="0" errors="0">
+   <testsuite name="Employee_data_02" tests="2" failures="0" errors="0" time="35" timestamp="2019-02-20 12:23:03" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/Configuration_01/Employee_data_02">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Employee_data_02\\20190220_122301"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Employee_data_02\\20190220_122301\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="6b5356bcfb1fa554bc59a42a57a353a9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_valid_info_1" classname="Test Cases/Login_page_info/Login_valid_info_1" status="PASSED">
+         <system-out><![CDATA[2019-02-20 12:23:04 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_valid_info_1: Test Cases/Login_page_info/Login_valid_info_1
+
+2019-02-20 12:23:04 - [TEST_STEP][PASSED] - comment: Login to Thor with Valid Credentials
+
+2019-02-20 12:23:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-20 12:23:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-20 12:23:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-20 12:23:16 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-20 12:23:16 - [TEST_STEP][PASSED] - setText: Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-20 12:23:16 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-20 12:23:16 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-20 12:23:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-20 12:23:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-20 12:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-20 12:23:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present
+
+2019-02-20 12:23:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-20 12:23:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Configuration_info/Employee_data_02" classname="Test Cases/Configuration_info/Employee_data_02" status="PASSED">
+         <system-out><![CDATA[2019-02-20 12:23:21 - [TEST_CASE][PASSED] - Test Cases/Configuration_info/Employee_data_02: Test Cases/Configuration_info/Employee_data_02
+
+2019-02-20 12:23:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit/Page_Thor/div_Configuration' is clicked on
+
+2019-02-20 12:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/edit/Page_Thor/div_Configuration' is clicked on
+
+2019-02-20 12:23:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-20 12:23:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-20 12:23:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit/Page_Thor/span_TC LTD_checkbox_employee' is clicked on
+
+2019-02-20 12:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/edit/Page_Thor/span_TC LTD_checkbox_employee' is clicked on
+
+2019-02-20 12:23:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-20 12:23:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-20 12:23:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit/Page_Thor/label_in-active' is clicked on
+
+2019-02-20 12:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/edit/Page_Thor/label_in-active' is clicked on
+
+2019-02-20 12:23:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-20 12:23:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-20 12:23:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit/Page_Thor/button_Update' is clicked on
+
+2019-02-20 12:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/edit/Page_Thor/button_Update' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-20 12:23:03 - [TEST_SUITE][PASSED] - Employee_data_02: Test Cases/Configuration_info/Employee_data_02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

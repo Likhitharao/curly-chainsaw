@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee_data_01" time="83" tests="1" failures="1" errors="0">
+   <testsuite name="Employee_data_01" tests="1" failures="1" errors="0" time="83" timestamp="2019-02-19 16:08:46" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/Configuration_01/Employee_data_01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Employee_data_01\\20190219_160845"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Employee_data_01\\20190219_160845\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Employee_data_01\\20190219_160845\\1550572809552.png"/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="381b458f37adaa16a671ebe8adfc3577"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_valid_info_1" classname="Test Cases/Login_page_info/Login_valid_info_1" status="PASSED">
+         <system-out><![CDATA[2019-02-19 16:08:47 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_valid_info_1: Test Cases/Login_page_info/Login_valid_info_1
+
+2019-02-19 16:08:47 - [TEST_STEP][PASSED] - comment: Login to Thor with Valid Credentials
+
+2019-02-19 16:08:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-19 16:08:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-19 16:08:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-19 16:08:56 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-19 16:08:56 - [TEST_STEP][PASSED] - setText: Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-19 16:08:57 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-19 16:08:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-19 16:08:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-19 16:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-19 16:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-19 16:09:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present
+
+2019-02-19 16:09:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 16:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Configuration_info/Employee_data_01" classname="Test Cases/Configuration_info/Employee_data_01" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550553552855.run(Script1550553552855.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1550572725245.run(TempTestSuite1550572725245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-02-19 16:09:01 - [TEST_CASE][FAILED] - Test Cases/Configuration_info/Employee_data_01: Test Cases/Configuration_info/Employee_data_01 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550553552855.run(Script1550553552855.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1550572725245.run(TempTestSuite1550572725245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-02-19 16:09:02 - [TEST_STEP][PASSED] - comment: Creating Employee data In configuration
+
+2019-02-19 16:09:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/div_Configuration' is clicked on
+
+2019-02-19 16:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/div_Configuration' is clicked on
+
+2019-02-19 16:09:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:07 - [TEST_STEP][FAILED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configuration_Info/employee_data_01).getRowNumbers(), (i++)]): Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+
+2019-02-19 16:09:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:13 - [TEST_STEP][PASSED] - setText: Text 'Jacck1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:09:13 - [MESSAGE][PASSED] - Text 'Jacck1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:09:13 - [TEST_STEP][PASSED] - setText: Text 'J1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:09:13 - [MESSAGE][PASSED] - Text 'J1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:09:13 - [TEST_STEP][PASSED] - setText: Text 'kkk' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:09:13 - [MESSAGE][PASSED] - Text 'kkk' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:09:13 - [TEST_STEP][PASSED] - setText: Text 'jack1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:09:13 - [MESSAGE][PASSED] - Text 'jack1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:09:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:09:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:09:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Admin' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:09:19 - [MESSAGE][PASSED] - All options with value 'Admin' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:09:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TC LTD' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:09:19 - [MESSAGE][PASSED] - All options with value 'TC LTD' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:09:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:09:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/input' is clicked on
+
+2019-02-19 16:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/input' is clicked on
+
+2019-02-19 16:09:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/click' is clicked on
+
+2019-02-19 16:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/click' is clicked on
+
+2019-02-19 16:09:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/savce' is clicked on
+
+2019-02-19 16:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/savce' is clicked on
+
+2019-02-19 16:09:19 - [TEST_STEP][PASSED] - setText: Text 'kkk' is set on object 'Object Repository/Employee_data_01/Page_Thor/input_Search_form-control inpu'
+
+2019-02-19 16:09:20 - [MESSAGE][PASSED] - Text 'kkk' is set on object 'Object Repository/Employee_data_01/Page_Thor/input_Search_form-control inpu'
+
+2019-02-19 16:09:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:30 - [TEST_STEP][PASSED] - setText: Text 'Thomas1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:09:30 - [MESSAGE][PASSED] - Text 'Thomas1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:09:30 - [TEST_STEP][PASSED] - setText: Text 't1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:09:30 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:09:30 - [TEST_STEP][PASSED] - setText: Text 'ooo' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:09:30 - [MESSAGE][PASSED] - Text 'ooo' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:09:30 - [TEST_STEP][PASSED] - setText: Text 'Thomas1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:09:30 - [MESSAGE][PASSED] - Text 'Thomas1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:09:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:35 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:09:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:09:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Resourcer' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - All options with value 'Resourcer' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TLS Ltd' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - All options with value 'TLS Ltd' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/input' is clicked on
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/input' is clicked on
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/click' is clicked on
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/click' is clicked on
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/savce' is clicked on
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/savce' is clicked on
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - setText: Text 'ooo' is set on object 'Object Repository/Employee_data_01/Page_Thor/input_Search_form-control inpu'
+
+2019-02-19 16:09:36 - [MESSAGE][PASSED] - Text 'ooo' is set on object 'Object Repository/Employee_data_01/Page_Thor/input_Search_form-control inpu'
+
+2019-02-19 16:09:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:46 - [TEST_STEP][PASSED] - setText: Text 'Mark1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:09:47 - [MESSAGE][PASSED] - Text 'Mark1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:09:47 - [TEST_STEP][PASSED] - setText: Text 'm1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:09:47 - [MESSAGE][PASSED] - Text 'm1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:09:47 - [TEST_STEP][PASSED] - setText: Text 'ppp' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:09:47 - [MESSAGE][PASSED] - Text 'ppp' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:09:47 - [TEST_STEP][PASSED] - setText: Text 'Mark1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:09:47 - [MESSAGE][PASSED] - Text 'Mark1' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:09:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:52 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:09:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:09:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Associate' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:09:52 - [MESSAGE][PASSED] - All options with value 'Associate' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:09:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TC Inc' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:09:53 - [MESSAGE][PASSED] - All options with value 'TC Inc' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/input' is clicked on
+
+2019-02-19 16:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/input' is clicked on
+
+2019-02-19 16:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/click' is clicked on
+
+2019-02-19 16:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/click' is clicked on
+
+2019-02-19 16:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/savce' is clicked on
+
+2019-02-19 16:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/savce' is clicked on
+
+2019-02-19 16:09:53 - [TEST_STEP][PASSED] - setText: Text 'ppp' is set on object 'Object Repository/Employee_data_01/Page_Thor/input_Search_form-control inpu'
+
+2019-02-19 16:09:53 - [MESSAGE][PASSED] - Text 'ppp' is set on object 'Object Repository/Employee_data_01/Page_Thor/input_Search_form-control inpu'
+
+2019-02-19 16:09:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:09:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:09:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/button_New' is clicked on
+
+2019-02-19 16:09:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:10:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:10:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:10:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__first_name'
+
+2019-02-19 16:10:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:10:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__last_name'
+
+2019-02-19 16:10:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:10:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__emp_code'
+
+2019-02-19 16:10:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:10:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee_data_01/Page_Thor/input__user_name'
+
+2019-02-19 16:10:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-19 16:10:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 16:10:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:10:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee_data_01/Page_Thor/input__password'
+
+2019-02-19 16:10:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:10:09 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-19 16:10:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:10:09 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Employee_data_01/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-19 16:10:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_data_01/Page_Thor/span_All' is clicked on
+
+2019-02-19 16:10:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+
+2019-02-19 16:10:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+[[ATTACHMENT|C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Employee_data_01\\20190219_160845\\1550572809552.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-19 16:09:01 - [TEST_CASE][FAILED] - Test Cases/Configuration_info/Employee_data_01: Test Cases/Configuration_info/Employee_data_01 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550553552855.run(Script1550553552855.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1550572725245.run(TempTestSuite1550572725245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 16:08:46 - [TEST_SUITE][FAILED] - Employee_data_01: Test Cases/Configuration_info/Employee_data_01 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550553552855.run(Script1550553552855.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1550572725245.run(TempTestSuite1550572725245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2019-02-19 16:08:46 - [TEST_SUITE][FAILED] - Employee_data_01: Test Cases/Configuration_info/Employee_data_01 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee_data_01/Page_Thor/input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 381b458f37adaa16a671ebe8adfc3577)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550553552855.run(Script1550553552855.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1550572725245.run(TempTestSuite1550572725245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

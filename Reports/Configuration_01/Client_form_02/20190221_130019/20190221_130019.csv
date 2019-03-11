@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Client_form_02,Chrome 72.0.3626.109,,2019-02-21 13:00:21,2019-02-21 13:00:56,34.634s,PASSED
+,,,,,,
+Test Cases/Login_page_info/Login_valid_info_1,Chrome 72.0.3626.109,,2019-02-21 13:00:22,2019-02-21 13:00:34,11.797s,PASSED
+comment,Chrome 72.0.3626.109,,2019-02-21 13:00:22,2019-02-21 13:00:22,0.052s,PASSED
+openBrowser,Chrome 72.0.3626.109,,2019-02-21 13:00:22,2019-02-21 13:00:25,3.342s,PASSED
+navigateToUrl,Chrome 72.0.3626.109,Thor URL,2019-02-21 13:00:25,2019-02-21 13:00:29,3.164s,PASSED
+setText,Chrome 72.0.3626.109,"Enter""E-mail""",2019-02-21 13:00:29,2019-02-21 13:00:29,0.225s,PASSED
+setEncryptedText,Chrome 72.0.3626.109,"Enter""Password""
+",2019-02-21 13:00:29,2019-02-21 13:00:29,0.296s,PASSED
+click,Chrome 72.0.3626.109,"Click ""Login"" button",2019-02-21 13:00:29,2019-02-21 13:00:33,4.251s,PASSED
+verifyElementPresent,Chrome 72.0.3626.109,Very Successful Login,2019-02-21 13:00:33,2019-02-21 13:00:33,0.104s,PASSED
+,,,,,,
+Test Cases/Configuration_info/client_form_02,Chrome 72.0.3626.109,,2019-02-21 13:00:34,2019-02-21 13:00:55,21.642s,PASSED
+comment,Chrome 72.0.3626.109,,2019-02-21 13:00:34,2019-02-21 13:00:34,0.003s,PASSED
+click,Chrome 72.0.3626.109,"Click on ""configuration Button""
+",2019-02-21 13:00:34,2019-02-21 13:00:35,1.251s,PASSED
+delay,Chrome 72.0.3626.109,,2019-02-21 13:00:35,2019-02-21 13:00:40,5.012s,PASSED
+click,Chrome 72.0.3626.109,"Click on ""client Form"" tab
+",2019-02-21 13:00:40,2019-02-21 13:00:42,2.361s,PASSED
+delay,Chrome 72.0.3626.109,,2019-02-21 13:00:42,2019-02-21 13:00:47,5.004s,PASSED
+click,Chrome 72.0.3626.109,"Click on ""Edit"" button
+",2019-02-21 13:00:47,2019-02-21 13:00:48,0.144s,PASSED
+"Statement - If (com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configuration_Info/Client_form_01).getValue(7, 1))",Chrome 72.0.3626.109,If Value== Yes,2019-02-21 13:00:48,2019-02-21 13:00:53,5.170s,PASSED
+click,Chrome 72.0.3626.109,"Click on ""Save "" Button
+",2019-02-21 13:00:53,2019-02-21 13:00:55,2.402s,PASSED

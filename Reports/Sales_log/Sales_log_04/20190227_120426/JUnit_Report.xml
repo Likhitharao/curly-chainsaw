@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sales_log_04" time="85" tests="2" failures="0" errors="0">
+   <testsuite name="Sales_log_04" tests="2" failures="0" errors="0" time="85" timestamp="2019-02-27 12:04:29" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/Sales_log/Sales_log_04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Sales_log\\Sales_log_04\\20190227_120426"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Sales_log\\Sales_log_04\\20190227_120426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="af079b347aceff984b26cd136671e1fc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_valid_info_1" classname="Test Cases/Login_page_info/Login_valid_info_1" status="PASSED">
+         <system-out><![CDATA[2019-02-27 12:04:29 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_valid_info_1: Test Cases/Login_page_info/Login_valid_info_1
+
+2019-02-27 12:04:30 - [TEST_STEP][PASSED] - comment: Login to Thor with Valid Credentials
+
+2019-02-27 12:04:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-27 12:04:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-27 12:04:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-27 12:04:39 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-27 12:04:39 - [TEST_STEP][PASSED] - setText: Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-27 12:04:39 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-27 12:04:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-27 12:04:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-27 12:04:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-27 12:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-27 12:04:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present
+
+2019-02-27 12:04:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-27 12:04:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Saleslog_info/saleslog_04" classname="Test Cases/Saleslog_info/saleslog_04" status="PASSED">
+         <system-out><![CDATA[2019-02-27 12:04:43 - [TEST_CASE][PASSED] - Test Cases/Saleslog_info/saleslog_04: Test Cases/Saleslog_info/saleslog_04
+
+2019-02-27 12:04:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/div_Sales Log' is clicked on
+
+2019-02-27 12:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/div_Sales Log' is clicked on
+
+2019-02-27 12:04:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:04:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:04:51 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Saleslog_info/saleslog_data).getRowNumbers(), (i++)]): Delayed 5 second(s)
+
+2019-02-27 12:04:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/i_New_fa fa-plus' is clicked on
+
+2019-02-27 12:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/i_New_fa fa-plus' is clicked on
+
+2019-02-27 12:04:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NS' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-27 12:04:52 - [MESSAGE][PASSED] - All options with value 'NS' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-27 12:04:52 - [TEST_STEP][PASSED] - setText: Text '8514256' is set on object 'Object Repository/4/Page_Thor/input_Lead Amount_lead_amount'
+
+2019-02-27 12:04:52 - [MESSAGE][PASSED] - Text '8514256' is set on object 'Object Repository/4/Page_Thor/input_Lead Amount_lead_amount'
+
+2019-02-27 12:04:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de' is clicked on
+
+2019-02-27 12:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de' is clicked on
+
+2019-02-27 12:04:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de2' is clicked on
+
+2019-02-27 12:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de2' is clicked on
+
+2019-02-27 12:04:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'WZ' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-27 12:04:53 - [MESSAGE][PASSED] - All options with value 'WZ' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-27 12:04:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Thor Life Sciences U.S' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _2'  using regular expression
+
+2019-02-27 12:04:53 - [MESSAGE][PASSED] - All options with value 'Thor Life Sciences U.S' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _2'  using regular expression
+
+2019-02-27 12:04:53 - [TEST_STEP][PASSED] - setText: Text 'Portor12345' is set on object 'Object Repository/4/Page_Thor/input__candidate_name'
+
+2019-02-27 12:04:53 - [MESSAGE][PASSED] - Text 'Portor12345' is set on object 'Object Repository/4/Page_Thor/input__candidate_name'
+
+2019-02-27 12:04:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Cello' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _3'  using regular expression
+
+2019-02-27 12:04:54 - [MESSAGE][PASSED] - All options with value 'Cello' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _3'  using regular expression
+
+2019-02-27 12:04:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'P' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _4'  using regular expression
+
+2019-02-27 12:04:55 - [MESSAGE][PASSED] - All options with value 'P' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _4'  using regular expression
+
+2019-02-27 12:04:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Full deal' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _5'  using regular expression
+
+2019-02-27 12:04:55 - [MESSAGE][PASSED] - All options with value 'Full deal' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _5'  using regular expression
+
+2019-02-27 12:04:55 - [TEST_STEP][PASSED] - setText: Text '85695' is set on object 'Object Repository/4/Page_Thor/input__fixed_total_amount'
+
+2019-02-27 12:04:55 - [MESSAGE][PASSED] - Text '85695' is set on object 'Object Repository/4/Page_Thor/input__fixed_total_amount'
+
+2019-02-27 12:04:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'GBP' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _6'  using regular expression
+
+2019-02-27 12:04:55 - [MESSAGE][PASSED] - All options with value 'GBP' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _6'  using regular expression
+
+2019-02-27 12:04:55 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/4/Page_Thor/input__thor_rate'
+
+2019-02-27 12:04:55 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/4/Page_Thor/input__thor_rate'
+
+2019-02-27 12:04:55 - [TEST_STEP][PASSED] - setText: Text 'food' is set on object 'Object Repository/4/Page_Thor/textarea_Comments_comments'
+
+2019-02-27 12:04:55 - [MESSAGE][PASSED] - Text 'food' is set on object 'Object Repository/4/Page_Thor/textarea_Comments_comments'
+
+2019-02-27 12:04:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/st' is clicked on
+
+2019-02-27 12:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/st' is clicked on
+
+2019-02-27 12:05:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:06 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/4/Page_Thor/input_Payment Terms_payment'
+
+2019-02-27 12:05:06 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/4/Page_Thor/input_Payment Terms_payment'
+
+2019-02-27 12:05:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_1' is clicked on
+
+2019-02-27 12:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_1' is clicked on
+
+2019-02-27 12:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_2' is clicked on
+
+2019-02-27 12:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_2' is clicked on
+
+2019-02-27 12:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_3' is clicked on
+
+2019-02-27 12:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_3' is clicked on
+
+2019-02-27 12:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/button_Invoice Number_generate' is clicked on
+
+2019-02-27 12:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/button_Invoice Number_generate' is clicked on
+
+2019-02-27 12:05:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/button_Save' is clicked on
+
+2019-02-27 12:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/button_Save' is clicked on
+
+2019-02-27 12:05:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/i_New_fa fa-plus' is clicked on
+
+2019-02-27 12:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/i_New_fa fa-plus' is clicked on
+
+2019-02-27 12:05:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'qwe' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-27 12:05:23 - [MESSAGE][PASSED] - All options with value 'qwe' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-27 12:05:23 - [TEST_STEP][PASSED] - setText: Text '655555' is set on object 'Object Repository/4/Page_Thor/input_Lead Amount_lead_amount'
+
+2019-02-27 12:05:23 - [MESSAGE][PASSED] - Text '655555' is set on object 'Object Repository/4/Page_Thor/input_Lead Amount_lead_amount'
+
+2019-02-27 12:05:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de' is clicked on
+
+2019-02-27 12:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de' is clicked on
+
+2019-02-27 12:05:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de2' is clicked on
+
+2019-02-27 12:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de2' is clicked on
+
+2019-02-27 12:05:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Wiz' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-27 12:05:26 - [MESSAGE][PASSED] - All options with value 'Wiz' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-27 12:05:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Thor Infra' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _2'  using regular expression
+
+2019-02-27 12:05:26 - [MESSAGE][PASSED] - All options with value 'Thor Infra' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _2'  using regular expression
+
+2019-02-27 12:05:26 - [TEST_STEP][PASSED] - setText: Text 'Denim1234' is set on object 'Object Repository/4/Page_Thor/input__candidate_name'
+
+2019-02-27 12:05:26 - [MESSAGE][PASSED] - Text 'Denim1234' is set on object 'Object Repository/4/Page_Thor/input__candidate_name'
+
+2019-02-27 12:05:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CE3' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _3'  using regular expression
+
+2019-02-27 12:05:27 - [MESSAGE][PASSED] - All options with value 'CE3' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _3'  using regular expression
+
+2019-02-27 12:05:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'P' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _4'  using regular expression
+
+2019-02-27 12:05:27 - [MESSAGE][PASSED] - All options with value 'P' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _4'  using regular expression
+
+2019-02-27 12:05:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1st Stage Retainer' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _5'  using regular expression
+
+2019-02-27 12:05:27 - [MESSAGE][PASSED] - All options with value '1st Stage Retainer' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _5'  using regular expression
+
+2019-02-27 12:05:27 - [TEST_STEP][PASSED] - setText: Text '98569' is set on object 'Object Repository/4/Page_Thor/input__fixed_total_amount'
+
+2019-02-27 12:05:28 - [MESSAGE][PASSED] - Text '98569' is set on object 'Object Repository/4/Page_Thor/input__fixed_total_amount'
+
+2019-02-27 12:05:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'GBP' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _6'  using regular expression
+
+2019-02-27 12:05:28 - [MESSAGE][PASSED] - All options with value 'GBP' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _6'  using regular expression
+
+2019-02-27 12:05:28 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/4/Page_Thor/input__thor_rate'
+
+2019-02-27 12:05:28 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/4/Page_Thor/input__thor_rate'
+
+2019-02-27 12:05:28 - [TEST_STEP][PASSED] - setText: Text 'Travel' is set on object 'Object Repository/4/Page_Thor/textarea_Comments_comments'
+
+2019-02-27 12:05:28 - [MESSAGE][PASSED] - Text 'Travel' is set on object 'Object Repository/4/Page_Thor/textarea_Comments_comments'
+
+2019-02-27 12:05:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/st' is clicked on
+
+2019-02-27 12:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/st' is clicked on
+
+2019-02-27 12:05:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:38 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/4/Page_Thor/input_Payment Terms_payment'
+
+2019-02-27 12:05:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/4/Page_Thor/input_Payment Terms_payment'
+
+2019-02-27 12:05:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_1' is clicked on
+
+2019-02-27 12:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_1' is clicked on
+
+2019-02-27 12:05:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_2' is clicked on
+
+2019-02-27 12:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_2' is clicked on
+
+2019-02-27 12:05:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_3' is clicked on
+
+2019-02-27 12:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_3' is clicked on
+
+2019-02-27 12:05:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/button_Invoice Number_generate' is clicked on
+
+2019-02-27 12:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/button_Invoice Number_generate' is clicked on
+
+2019-02-27 12:05:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:05:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/button_Save' is clicked on
+
+2019-02-27 12:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/button_Save' is clicked on
+
+2019-02-27 12:05:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:05:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-27 12:04:29 - [TEST_SUITE][PASSED] - Sales_log_04: Test Cases/Saleslog_info/saleslog_04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sales_permanent</name>
+   <tag></tag>
+   <comment>Craeting Deal with Contract Type &quot;PERMANENT&quot;</comment>
+   <testCaseGuid>b8909dc8-1557-4b08-bb0b-4cbde0e657e3</testCaseGuid>
+</TestCaseEntity>

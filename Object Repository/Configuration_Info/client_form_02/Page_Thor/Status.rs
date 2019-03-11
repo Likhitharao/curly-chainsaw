@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Status</name>
+   <tag></tag>
+   <elementGuidId>f4d48eef-bb43-43d6-b807-745c2f6d0c26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[5]/div/div/div/div/div[2]/div[2]/div/form/div[2]/div[10]/div/div[2]/div/div/label[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[5]/div/div/div/div/div[2]/div[2]/div/form/div[2]/div[10]/div/div[2]/div/div/label[2]</value>
+   </webElementProperties>
+</WebElementEntity>

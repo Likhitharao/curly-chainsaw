@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Employee_data_01,Chrome 72.0.3626.109,,2019-02-19 14:27:30,2019-02-19 14:27:48,18.079s,FAILED
+,,,,,,
+Test Cases/Login_page_info/Login_valid_info_1,Chrome 72.0.3626.109,,2019-02-19 14:27:30,2019-02-19 14:27:46,16.341s,FAILED
+comment,Chrome 72.0.3626.109,,2019-02-19 14:27:30,2019-02-19 14:27:30,0.097s,PASSED
+openBrowser,Chrome 72.0.3626.109,,2019-02-19 14:27:30,2019-02-19 14:27:45,14.171s,PASSED
+navigateToUrl,Chrome 72.0.3626.109,Thor URL,2019-02-19 14:27:45,2019-02-19 14:27:46,1.284s,PASSED
+setText,Chrome 72.0.3626.109,"Enter""E-mail""",2019-02-19 14:27:46,2019-02-19 14:27:46,0.443s,FAILED
+,,,,,,
+Test Cases/Configuration_info/Employee_data_01,Chrome 72.0.3626.109,,2019-02-19 14:27:46,2019-02-19 14:27:47,0.331s,FAILED
+comment,Chrome 72.0.3626.109,,2019-02-19 14:27:46,2019-02-19 14:27:47,0.011s,PASSED
+click,Chrome 72.0.3626.109,"Click "" Configuration""",2019-02-19 14:27:47,2019-02-19 14:27:47,0.100s,FAILED
+,,,,,,
+Test Cases/Configuration_info/Employee_data_03,Chrome 72.0.3626.109,,2019-02-19 14:27:47,2019-02-19 14:27:47,0.392s,FAILED
+setText,Chrome 72.0.3626.109,,2019-02-19 14:27:47,2019-02-19 14:27:47,0.182s,FAILED

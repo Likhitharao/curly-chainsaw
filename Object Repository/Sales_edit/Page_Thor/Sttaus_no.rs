@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sttaus_no</name>
+   <tag></tag>
+   <elementGuidId>993fc458-ace2-4f33-aff3-0d3617960833</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='myInvoice_form']/div/div[2]/div/div[2]/div[16]/div[2]/div/div/label[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='myInvoice_form']/div/div[2]/div/div[2]/div[16]/div[2]/div/div/label[2]</value>
+   </webElementProperties>
+</WebElementEntity>

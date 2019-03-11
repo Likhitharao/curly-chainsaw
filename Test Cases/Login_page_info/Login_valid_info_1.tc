@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_valid_info_1</name>
+   <tag></tag>
+   <comment>Login to Thor with Valid Credentials</comment>
+   <testCaseGuid>cf736443-b804-4eaf-89d7-f1c678989273</testCaseGuid>
+</TestCaseEntity>

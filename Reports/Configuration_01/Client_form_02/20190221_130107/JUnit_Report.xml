@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Client_form_02" time="34" tests="2" failures="0" errors="0">
+   <testsuite name="Client_form_02" tests="2" failures="0" errors="0" time="34" timestamp="2019-02-21 13:01:08" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/Configuration_01/Client_form_02">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Client_form_02\\20190221_130107"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Configuration_01\\Client_form_02\\20190221_130107\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="2f22ee14df27d1189104e21f0758697d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_valid_info_1" classname="Test Cases/Login_page_info/Login_valid_info_1" status="PASSED">
+         <system-out><![CDATA[2019-02-21 13:01:09 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_valid_info_1: Test Cases/Login_page_info/Login_valid_info_1
+
+2019-02-21 13:01:09 - [TEST_STEP][PASSED] - comment: Login to Thor with Valid Credentials
+
+2019-02-21 13:01:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-21 13:01:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-21 13:01:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-21 13:01:17 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-21 13:01:17 - [TEST_STEP][PASSED] - setText: Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-21 13:01:17 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-21 13:01:17 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-21 13:01:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-21 13:01:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-21 13:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-21 13:01:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present
+
+2019-02-21 13:01:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-21 13:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Configuration_info/client_form_02" classname="Test Cases/Configuration_info/client_form_02" status="PASSED">
+         <system-out><![CDATA[2019-02-21 13:01:21 - [TEST_CASE][PASSED] - Test Cases/Configuration_info/client_form_02: Test Cases/Configuration_info/client_form_02
+
+2019-02-21 13:01:21 - [TEST_STEP][PASSED] - comment: Editing The Client Form in Configuration
+
+2019-02-21 13:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/client_form_02/Page_Thor/div_Configuration' is clicked on
+
+2019-02-21 13:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/client_form_02/Page_Thor/div_Configuration' is clicked on
+
+2019-02-21 13:01:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-21 13:01:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-21 13:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/client_form_02/Page_Thor/a_Client Form' is clicked on
+
+2019-02-21 13:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/client_form_02/Page_Thor/a_Client Form' is clicked on
+
+2019-02-21 13:01:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-21 13:01:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-21 13:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/client_form_02/Page_Thor/span_Reverse Charge Applies_fa' is clicked on
+
+2019-02-21 13:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/client_form_02/Page_Thor/span_Reverse Charge Applies_fa' is clicked on
+
+2019-02-21 13:01:35 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.testdata.TestDataFactory.findTestData(Configuration_Info/Client_form_01).getValue(7, 1)): Object: 'Object Repository/client_form_02/Page_Thor/Status' is clicked on
+
+2019-02-21 13:01:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-21 13:01:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-21 13:01:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/client_form_02/Page_Thor/Status' is clicked on
+
+2019-02-21 13:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/client_form_02/Page_Thor/Status' is clicked on
+
+2019-02-21 13:01:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/client_form_02/Page_Thor/button_Update' is clicked on
+
+2019-02-21 13:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/client_form_02/Page_Thor/button_Update' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-21 13:01:08 - [TEST_SUITE][PASSED] - Client_form_02: Test Cases/Configuration_info/client_form_02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

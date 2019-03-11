@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>saleslog_Invoicesent</name>
+   <tag></tag>
+   <comment>Creating Deals with InvoiceSent and Direct approval</comment>
+   <testCaseGuid>ba1da2e6-32cb-4eb5-8d0c-48c6ebad19ed</testCaseGuid>
+</TestCaseEntity>

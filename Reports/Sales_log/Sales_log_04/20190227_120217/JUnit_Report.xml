@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sales_log_04" time="47" tests="1" failures="1" errors="0">
+   <testsuite name="Sales_log_04" tests="1" failures="1" errors="0" time="47" timestamp="2019-02-27 12:02:20" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/Sales_log/Sales_log_04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Sales_log\\Sales_log_04\\20190227_120217"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Sales_log\\Sales_log_04\\20190227_120217\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Sales_log\\Sales_log_04\\20190227_120217\\1551249185906.png"/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="1ce6c1929676c714e8abc1f4ca109470"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_valid_info_1" classname="Test Cases/Login_page_info/Login_valid_info_1" status="PASSED">
+         <system-out><![CDATA[2019-02-27 12:02:20 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_valid_info_1: Test Cases/Login_page_info/Login_valid_info_1
+
+2019-02-27 12:02:20 - [TEST_STEP][PASSED] - comment: Login to Thor with Valid Credentials
+
+2019-02-27 12:02:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-27 12:02:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-27 12:02:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-27 12:02:27 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-27 12:02:27 - [TEST_STEP][PASSED] - setText: Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-27 12:02:27 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username'
+
+2019-02-27 12:02:27 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-27 12:02:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password'
+
+2019-02-27 12:02:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-27 12:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login' is clicked on
+
+2019-02-27 12:02:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present
+
+2019-02-27 12:02:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-27 12:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Saleslog_info/saleslog_04" classname="Test Cases/Saleslog_info/saleslog_04" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;i class=&quot;fa fa-plus&quot;>&lt;/i> is not clickable at point (34, 229). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;myInvoice&quot; role=&quot;dialog&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; style=&quot;display: block;&quot;>...&lt;/div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550552729558.run(Script1550552729558.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1551249137895.run(TempTestSuite1551249137895.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-02-27 12:02:32 - [TEST_CASE][FAILED] - Test Cases/Saleslog_info/saleslog_04: Test Cases/Saleslog_info/saleslog_04 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550552729558.run(Script1550552729558.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1551249137895.run(TempTestSuite1551249137895.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-02-27 12:02:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/div_Sales Log' is clicked on
+
+2019-02-27 12:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/div_Sales Log' is clicked on
+
+2019-02-27 12:02:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:02:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:02:39 - [TEST_STEP][FAILED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Saleslog_info/saleslog_data).getRowNumbers(), (i++)]): Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+
+2019-02-27 12:02:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/i_New_fa fa-plus' is clicked on
+
+2019-02-27 12:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/i_New_fa fa-plus' is clicked on
+
+2019-02-27 12:02:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NS' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-27 12:02:41 - [MESSAGE][PASSED] - All options with value 'NS' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  ---'  using regular expression
+
+2019-02-27 12:02:41 - [TEST_STEP][PASSED] - setText: Text '8514256' is set on object 'Object Repository/4/Page_Thor/input_Lead Amount_lead_amount'
+
+2019-02-27 12:02:41 - [MESSAGE][PASSED] - Text '8514256' is set on object 'Object Repository/4/Page_Thor/input_Lead Amount_lead_amount'
+
+2019-02-27 12:02:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de' is clicked on
+
+2019-02-27 12:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de' is clicked on
+
+2019-02-27 12:02:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de2' is clicked on
+
+2019-02-27 12:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Saleslog_info/saleslog_02/Page_Thor/de2' is clicked on
+
+2019-02-27 12:02:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'WZ' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-27 12:02:42 - [MESSAGE][PASSED] - All options with value 'WZ' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _1'  using regular expression
+
+2019-02-27 12:02:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Thor Life Sciences U.S' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _2'  using regular expression
+
+2019-02-27 12:02:42 - [MESSAGE][PASSED] - All options with value 'Thor Life Sciences U.S' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _2'  using regular expression
+
+2019-02-27 12:02:42 - [TEST_STEP][PASSED] - setText: Text 'Portor1234' is set on object 'Object Repository/4/Page_Thor/input__candidate_name'
+
+2019-02-27 12:02:42 - [MESSAGE][PASSED] - Text 'Portor1234' is set on object 'Object Repository/4/Page_Thor/input__candidate_name'
+
+2019-02-27 12:02:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Cello' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _3'  using regular expression
+
+2019-02-27 12:02:43 - [MESSAGE][PASSED] - All options with value 'Cello' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _3'  using regular expression
+
+2019-02-27 12:02:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'P' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _4'  using regular expression
+
+2019-02-27 12:02:43 - [MESSAGE][PASSED] - All options with value 'P' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _4'  using regular expression
+
+2019-02-27 12:02:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Full deal' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _5'  using regular expression
+
+2019-02-27 12:02:44 - [MESSAGE][PASSED] - All options with value 'Full deal' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _5'  using regular expression
+
+2019-02-27 12:02:44 - [TEST_STEP][PASSED] - setText: Text '85695' is set on object 'Object Repository/4/Page_Thor/input__fixed_total_amount'
+
+2019-02-27 12:02:44 - [MESSAGE][PASSED] - Text '85695' is set on object 'Object Repository/4/Page_Thor/input__fixed_total_amount'
+
+2019-02-27 12:02:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'GBP' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _6'  using regular expression
+
+2019-02-27 12:02:44 - [MESSAGE][PASSED] - All options with value 'GBP' are selected in object 'Object Repository/4/Page_Thor/select_--- Please Select  --- _6'  using regular expression
+
+2019-02-27 12:02:44 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/4/Page_Thor/input__thor_rate'
+
+2019-02-27 12:02:44 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/4/Page_Thor/input__thor_rate'
+
+2019-02-27 12:02:44 - [TEST_STEP][PASSED] - setText: Text 'food' is set on object 'Object Repository/4/Page_Thor/textarea_Comments_comments'
+
+2019-02-27 12:02:44 - [MESSAGE][PASSED] - Text 'food' is set on object 'Object Repository/4/Page_Thor/textarea_Comments_comments'
+
+2019-02-27 12:02:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:02:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:02:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/st' is clicked on
+
+2019-02-27 12:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/st' is clicked on
+
+2019-02-27 12:02:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:02:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:02:54 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/4/Page_Thor/input_Payment Terms_payment'
+
+2019-02-27 12:02:55 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/4/Page_Thor/input_Payment Terms_payment'
+
+2019-02-27 12:02:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:03:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_1' is clicked on
+
+2019-02-27 12:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_1' is clicked on
+
+2019-02-27 12:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_2' is clicked on
+
+2019-02-27 12:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_2' is clicked on
+
+2019-02-27 12:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/label_No_3' is clicked on
+
+2019-02-27 12:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/label_No_3' is clicked on
+
+2019-02-27 12:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/button_Invoice Number_generate' is clicked on
+
+2019-02-27 12:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/button_Invoice Number_generate' is clicked on
+
+2019-02-27 12:03:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-27 12:03:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-27 12:03:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4/Page_Thor/button_Save' is clicked on
+
+2019-02-27 12:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/4/Page_Thor/button_Save' is clicked on
+
+2019-02-27 12:03:05 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+
+2019-02-27 12:03:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+[[ATTACHMENT|C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\Sales_log\\Sales_log_04\\20190227_120217\\1551249185906.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-27 12:02:32 - [TEST_CASE][FAILED] - Test Cases/Saleslog_info/saleslog_04: Test Cases/Saleslog_info/saleslog_04 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550552729558.run(Script1550552729558.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1551249137895.run(TempTestSuite1551249137895.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-27 12:02:20 - [TEST_SUITE][FAILED] - Sales_log_04: Test Cases/Saleslog_info/saleslog_04 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550552729558.run(Script1550552729558.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1551249137895.run(TempTestSuite1551249137895.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2019-02-27 12:02:20 - [TEST_SUITE][FAILED] - Sales_log_04: Test Cases/Saleslog_info/saleslog_04 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/4/Page_Thor/i_New_fa fa-plus' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <i class="fa fa-plus"></i> is not clickable at point (34, 229). Other element would receive the click: <div class="modal fade in" id="myInvoice" role="dialog" data-backdrop="static" data-keyboard="false" style="display: block;">...</div>
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SAMBHAVI', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sambhavi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 1ce6c1929676c714e8abc1f4ca109470)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1550552729558.run(Script1550552729558.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1551249137895.run(TempTestSuite1551249137895.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 72.0.3626.121,,2019-03-07 15:07:00,2019-03-07 15:07:24,23.753s,PASSED
+,,,,,,
+Test Cases/Login_page_info/Login_valid_info_1,Chrome 72.0.3626.121,,2019-03-07 15:07:00,2019-03-07 15:07:22,21.982s,PASSED
+"comment(""Login to Thor with Valid Credentials"")",Chrome 72.0.3626.121,,2019-03-07 15:07:01,2019-03-07 15:07:01,0.175s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 15:07:01,2019-03-07 15:07:13,12.259s,PASSED
+"navigateToUrl(""https://staging.mythortal.com/"")",Chrome 72.0.3626.121,Thor URL,2019-03-07 15:07:13,2019-03-07 15:07:16,3.230s,PASSED
+"setText(findTestObject(""Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_username""), ""nick"")",Chrome 72.0.3626.121,"Enter""E-mail""",2019-03-07 15:07:16,2019-03-07 15:07:16,0.288s,PASSED
+"setEncryptedText(findTestObject(""Login_page_info/Login_valid_info_1/Page_THORtal - Login/input_Login_password""), ""AdUMoLaE2tWuHJEBZev0OA=="")",Chrome 72.0.3626.121,"Enter""Password""
+",2019-03-07 15:07:16,2019-03-07 15:07:17,0.169s,PASSED
+"click(findTestObject(""Login_page_info/Login_valid_info_1/Page_THORtal - Login/button_Login""))",Chrome 72.0.3626.121,"Click ""Login"" button",2019-03-07 15:07:17,2019-03-07 15:07:22,5.331s,PASSED
+"verifyElementPresent(findTestObject(""Login_page_info/Login_valid_info_1/Page_THORtal - Login/dash""), 0, STOP_ON_FAILURE)",Chrome 72.0.3626.121,Very Successful Login,2019-03-07 15:07:22,2019-03-07 15:07:22,0.132s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 72.0.3626.121,,2019-03-07 15:07:22,2019-03-07 15:07:22,0.001s,PASSED
+"log.logInfo(""yourMsg"")",Chrome 72.0.3626.121,,2019-03-07 15:07:22,2019-03-07 15:07:22,0.001s,PASSED

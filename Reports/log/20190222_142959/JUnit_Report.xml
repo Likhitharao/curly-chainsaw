@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="log" time="31" tests="1" failures="0" errors="0">
+   <testsuite name="log" tests="1" failures="0" errors="0" time="31" timestamp="2019-02-22 14:30:05" hostname="sambhavi - sambhavi.jmangroup.com" id="Test Suites/log">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\log\\20190222_142959"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Thor\\Reports\\log\\20190222_142959\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmangroup.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="6ab8b7bcd19e5ce4c497ad9230511ba9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_page_info/Login_Invalid_info_2" classname="Test Cases/Login_page_info/Login_Invalid_info_2" status="PASSED">
+         <system-out><![CDATA[2019-02-22 14:30:06 - [TEST_CASE][PASSED] - Test Cases/Login_page_info/Login_Invalid_info_2: Test Cases/Login_page_info/Login_Invalid_info_2
+
+2019-02-22 14:30:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'Login to THOR with Invalid Credentials'
+
+2019-02-22 14:30:21 - [MESSAGE][PASSED] - Browser is opened with url: 'Login to THOR with Invalid Credentials'
+
+2019-02-22 14:30:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-22 14:30:31 - [MESSAGE][PASSED] - Navigate to 'https://staging.mythortal.com/' successfully
+
+2019-02-22 14:30:31 - [TEST_STEP][PASSED] - setText: Text 'Nick' is set on object 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/input_Login_username'
+
+2019-02-22 14:30:32 - [MESSAGE][PASSED] - Text 'Nick' is set on object 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/input_Login_username'
+
+2019-02-22 14:30:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/input_Login_password'
+
+2019-02-22 14:30:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/input_Login_password'
+
+2019-02-22 14:30:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/div_Login' is clicked on
+
+2019-02-22 14:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/div_Login' is clicked on
+
+2019-02-22 14:30:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/div_Login' is present
+
+2019-02-22 14:30:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-22 14:30:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_page_info/Login_invalid_info_2/Page_THORtal - Login/div_Login' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-22 14:30:05 - [TEST_SUITE][PASSED] - log: Test Cases/Login_page_info/Login_Invalid_info_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
